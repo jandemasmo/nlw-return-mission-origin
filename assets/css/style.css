@@ -79,12 +79,7 @@ section .content p{
     line-height: 150%;
     color: var(--paragraph);
 }
-section .content p{
-    font-weight: 400;
-    font-size: 1.6rem;
-    line-height: 150%;
-    color: var(--paragraph);
-}
+
 .button {
     display: flex;
     align-items: center;
@@ -327,15 +322,6 @@ body.menu-expanded button svg path {
 }
 
 /*========Serviçes=======*/
-#services h4 {
-    text-transform: uppercase;
-    font-size: 1.4rem;
-    line-height: 150%;
-    color: var(--primary-color);
-    letter-spacing: 0.08rem;
-    margin-bottom: 1.6rem;
-}
-
 #services header h2 {
     margin-bottom: 6rem;
 }
@@ -351,8 +337,8 @@ body.menu-expanded button svg path {
     border: 1px solid var(--brand-light) ;
     border-radius: 0.6rem;
 }
-#services.card h3{
-    margin-block: 2rem;
+#services .card h3{
+    margin-block: 1.6rem ;
 }
 
 
@@ -432,7 +418,7 @@ footer .social-links{
 @media (min-width:1024px){
     /*Geral*/
     body{
-       
+       overflow: auto;
     }
     .wrapper{
         width: min(112rem , 100%);  
@@ -468,6 +454,7 @@ footer .social-links{
         transform: initial;
         color: initial;
         background-color: initial;
+        filter: initial;
         
     }
     /*Navigation*/
@@ -518,35 +505,36 @@ footer .social-links{
     nav#navigation .menu li a{
         transition: opacity .4s;
     }
-    nav#navigation .menu li a:active,
+    nav#navigation .menu li a.active,
     nav#navigation .menu li a:hover{
         opacity: 1;
         font-weight: 700;
     }
     nav#navigation .menu li a::after{
-        content: "";
+        content: '';
         width: 0%;
         height: 2px;
         background-color: var(--primary-color);
-        display: block;
         position: relative;
+        display: block;
         bottom: -2rem;
         left: -1rem;
+        transition: width 0.2s;
         
     }
     nav#navigation.scroll .menu li a::after{
         background-color: white;
     }
-    nav#navigation .menu li a:active::after
+    nav#navigation .menu li a.active::after,
     nav#navigation .menu li a:hover::after{
         padding-inline: 0.8rem;
         width: 100%;
     }
-    nav#navigation.scroll .menu li a:active
+    nav#navigation.scroll .menu li a.active,
     nav#navigation.scroll .menu li a:hover{
         opacity: 1;
     }
-    nav#navigation.scroll .menu a.button:active
+    nav#navigation.scroll .menu a.button.active,
     nav#navigation.scroll .menu a.button:hover{
         background-color: var(--primary-color);
         filter: brightness(1.3);
