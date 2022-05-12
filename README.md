@@ -6,15 +6,10 @@
 </p>
 
 <p align="center">
-   <img src="https://raw.githubusercontent.com/jandemasmo/nlw-return-mission-origin/main/assets/images/projeto%20doctorcare%20.png" alt="Projeto Doctorcare" />
-
+   <img src="https://raw.githubusercontent.com/jandemasmo/nlw-return-mission-origin/main/assets/images/projeto%20doctorcare%20.png" />
 </p>
 
 <br>
-
-<p align="center">
-  <img alt="DoctorCare" src=".github/preview.jpg" width="100%">
-</p>
 
 ## 🚀 Tecnologias
 
