@@ -6,7 +6,9 @@
 </p>
 
 <p align="center">
-  <link href="https://doctorcare-nlw-return-mission-origin.netlify.app/">
+  <link href="">
+   <img src="https://raw.githubusercontent.com/jandemasmo/nlw-return-mission-origin/main/assets/images/projeto%20doctorcare%20.png" alt="Projeto Doctorcare" />
+
 </p>
 
 <br>
@@ -17,7 +19,8 @@
 
 ## 🚀 Tecnologias
 
-Foi usado as seguintes tecnologias nesse projeto
+Foi usado as seguintes tecnologias nesse projeto.
+Você pode acessar o projeto [aqui](https://doctorcare-nlw-return-mission-origin.netlify.app/)
 
 - HTML
 - CSS
