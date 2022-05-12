@@ -6,7 +6,6 @@
 </p>
 
 <p align="center">
-  <link href="">
    <img src="https://raw.githubusercontent.com/jandemasmo/nlw-return-mission-origin/main/assets/images/projeto%20doctorcare%20.png" alt="Projeto Doctorcare" />
 
 </p>
